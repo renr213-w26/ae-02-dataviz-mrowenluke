@@ -1,4 +1,5 @@
 ---
+author: Luke Owen
 title: "AE 02: Bechdel + data visualization"
 ---
 
