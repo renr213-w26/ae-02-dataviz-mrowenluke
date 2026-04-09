@@ -291,7 +291,7 @@ Create side-by-side box plots of `roi` by `clean_test` where the boxes are color
 ```{r}
 #| label: roi-zoom
 
-# add code here
+ggplot(bechdel, aes(x = clean_test, y = roi,  colour = binary)) + geom_boxplot() + labs(x = "Bechdel test category", y = "ROI", title = "ROI by Bechdel test result", colour = "Bechdel\nresult") 
 ```
 
 What are those movies with *very* high returns on investment?
